@@ -11,21 +11,20 @@
   background-color: white;
   box-shadow: 5px 10px 8px #888888;
 }
-.shadow_effect {
+.header-shadow_effect {
     box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.24);
 }
-.cols{
-    flex-wrap: wrap;
-}
+
+
 
 /* Header */
 
 header {
-    padding: 10px;
+  padding: 10px;
   color: rgb(39, 35, 35);
   height: 60px;
   display: flex;
-  flex: space-between;
+   justify-content: flex-end;  /*set items to right side*/
   align-items: center; /*vertical alignment  */
   background-color: #ffffff;
   position: sticky;
@@ -33,17 +32,42 @@ header {
   z-index: 100;
 }
 /* Navigation */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-header nav {
-  /* flex-direction: row; */
-  justify-content: flex-end;
 }
+.flex-item {
+flex-wrap: wrap;
+flex-direction: column;
+}
+nav{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  padding:20px;
+  justify-content: right, space-around;
+}
+nav div{
+  margin: 10px;
+}
+
 
 /* Main */
 
 main {
+  display: flex;
+
   padding: 30px;
   background-image: linear-gradient(rgb(169, 169, 169), rgb(255, 255, 255));
+
+}
+.flex-container-1{
+flex: 10;
+}
+.flex-container-2{
+  flex:20;
 }
 
 /* Professional Details */
