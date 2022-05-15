@@ -1,11 +1,21 @@
 * {
   padding: 0;
   margin: 0;
-  color: #36454F;
-  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  color: #5192bd;
+  font-family: "Rubik", Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-image: url("../images/city-at-night.jpg");
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-size: cover;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: "Rubik", Verdana;
+  color: #a1d3f5;
+  font-family: Verdana;
   
 }
 h2{
@@ -17,8 +27,8 @@ padding-bottom: 1em;
   margin: 10px;
   /* border: 1px solid black; */
   border-radius: 10px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 5px 10px 8px #888888;
+  background-color: rgba(0, 0, 0, 0.81);
+  box-shadow: 5px 10px 8px #ffffff6c;
 }
 
 
@@ -26,7 +36,7 @@ padding-bottom: 1em;
 
 /* Header */
 .header-shadow_effect {
-    box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 8px 6px 0px rgba(126, 185, 231, 0.24);
 }
 header {
   padding: 10px;
@@ -35,7 +45,7 @@ header {
   display: flex;
    justify-content: flex-end;  /*set items to right side*/
   align-items: center; /*vertical alignment  */
-  background-color: #ffffff;
+  background-color: #000000;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -64,7 +74,7 @@ nav div{
 nav a{
   font-size: 20px;
   font-weight: bold;
-  color: #36454F ;
+  color: #5192bd ;
   text-decoration: none;
 
   
@@ -78,7 +88,7 @@ main {
   display: flex;
 align-items: top;
   /* padding: 30px; */
-  background-image: linear-gradient(rgb(219, 230, 252), rgb(255, 255, 255));
+  /* background-image: linear-gradient(rgb(219, 230, 252), rgb(255, 255, 255)); */
 
 }
 .flex-container-1{
@@ -117,7 +127,9 @@ flex-grow: 2;
 }
 
 /* About Me */
-
+.about-me{
+  padding: 40px;
+}
 /* My Work */
 .my-work__first_card figure{
 display: flex;
