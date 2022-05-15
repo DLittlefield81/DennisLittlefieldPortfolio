@@ -65,14 +65,14 @@
           </p>
         </section>
         <!-- My Work -->
-        <section id="mywork-anchor" class="my-work box_styling">
-          <article class="">
+        <section id="mywork-anchor" class="box_styling">
+          <article class="my-work__first">
           <h2>My Work</h2>
           <div class="my-work__first_card">
-            <figure>
+            <figure><a href="http://offworld.ca">
               <img src="./assets/images/offworld_a.png" alt="Offworld Web Services Project" />
               <h3>FIRST Item Title</h3>
-              <p>Item Description</p>
+              <p>Item Description</p></a>
             </figure>
           </div></article>
           <!-- REPEAT FOR OTHER ITEMS -->
@@ -104,7 +104,19 @@
         <section id="contact-anchor" class="contact box_styling">
           <h2>Contact</h2>
           <div class="contact-form">
-            <form action=""></form>
+            <form action="#" method="post">
+
+              <fieldset class="contact-form">
+          
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email address" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Add your message here" required></textarea>
+                <input type="submit" id="submit" value="Submit" >
+                
+              </fieldset>
+          
+            </form>
           </div>
         </section>
       </div>
