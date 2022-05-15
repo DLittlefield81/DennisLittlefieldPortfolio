@@ -2,15 +2,19 @@
   padding: 0;
   margin: 0;
   color: #36454F;
-  font-family: "Rubik", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
+h1, h2, h3, h4, h5, h6{
+  font-family: "Rubik", Verdana;
+}
+
 .box_styling {
   padding: 10px;
   margin: 10px;
   /* border: 1px solid black; */
   border-radius: 10px;
   background-color: white;
-  box-shadow: 5px 10px 8px #888888;
+  /* box-shadow: 5px 10px 8px #888888; */
 }
 .header-shadow_effect {
     box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.24);
@@ -75,13 +79,11 @@ align-items: top;
 }
 .flex-container-1{
   margin: 30px 0 0 15px;
-  /* width: 40%; */
-/* flex-basis: 25%; */
+flex-grow: 1;
 }
 .flex-container-2{
   margin: 30px 15px 0 0;
-  /* flex-basis: auto;
-  align-items: left; */
+flex-grow: 2;
 }
 
 /* Professional Details */
@@ -112,9 +114,38 @@ align-items: top;
 /* About Me */
 
 /* My Work */
-.secondary-items{
+.my-work__first{
+border: 1px solid black;
+}
+.my-work__first_card img{
+  width: 50%;
+  border-radius: 10px;
+}
+.my-work__second{
   display: flex;
-  flex-wrap: wrap;
+  padding: 25px;
+  margin:5px;
+  justify-content: space-evenly;
+  text-align: center;
+  
+}
+.my-work__second_card a{
+text-decoration: none;
+}
+.my-work__second_card img{
+  width: 80%;
+  border-radius: 10px;
+  
+}
+.secondary-items{
+
+  background-color: #20262e;
+  color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+  align-items: center;
+  
 }
 /* Contact */
 
