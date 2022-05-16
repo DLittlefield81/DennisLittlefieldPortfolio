@@ -17,15 +17,14 @@ section div{
 
 /* MY WORK */
 article {
-    /* border:1px solid black; */
 display: flex;
 flex-flow: row wrap;
 }
 
 figure{
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 20%; */
 }
 figure  h3,h4{
     text-align: center;
@@ -34,23 +33,17 @@ figure a{
     text-decoration: none;
 }
 figure img{
-display:block;
+/* display:block; */
 
     width: 100%;
 }
-article item1{
-flex:1
+
+#showcase{
+    border: 1px solid #000000;
+    display: flex;
+    /* flex:wrap-reverse; */
 }
-article item2{
-    flex:1
-}
-article item3{
-    flex:1
-}
-article item4{
-    flex:1
-}
-/* CONTACT */
-.contact__container{
-   
-}
+ #showcase figure:nth-of-type(1) {flex-grow: 4;}
+/*#showcase figure:nth-of-type(2) {flex-grow: 1;}
+#showcase figure:nth-of-type(3) {flex-grow: 1;}
+#showcase figure:nth-of-type(4) {flex-grow: 2;} */
