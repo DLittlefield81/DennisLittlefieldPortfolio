@@ -37,10 +37,12 @@ h2 {
 }
 .full-document-column-1 {
   flex: 1;
+ 
 }
 
 .full-document-column-2 {
   flex: 2;
+ 
 }
 
 /* Header */
@@ -64,16 +66,12 @@ header {
 }
 
 /* Navigation */
-.flex-container {
+.header-nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.flex-item {
-  flex-wrap: wrap;
-  flex-direction: column;
-}
 
 nav {
   display: flex;
@@ -99,8 +97,7 @@ nav a {
 main {
   display: flex;
   align-items: top;
-  /* padding: 30px; */
-  /* background-image: linear-gradient(rgb(219, 230, 252), rgb(255, 255, 255)); */
+
 }
 
 .flex-container-1 {
@@ -115,8 +112,7 @@ main {
 
 /* Professional Details */
 .professional_details__box {
-  flex: 1;
-  width: 90%;
+width: 80%;
 }
 
 .professional_details__box h2 {
@@ -146,21 +142,25 @@ main {
 }
 
 /* My Work */
-.my-work-itembox{
+.my-work-position-1-container{
+  display: flex;
+  justify-content: space-between;
+}
+.my-work-position-1-container figure{
   flex-basis: 30%;
 }
 
-.my-work__first_card figure {
+/* .my-work__first_card figure {
   display: flex;
   flex-direction: row;
-}
+} */
 
-.my-work__first_card img {
-  width: 50%;
+.my-work-position-1-container img {
+  width: 300px;
   border-radius: 10px;
 }
 
-.my-work__first_card a {
+.my-work-position-1-container a {
   text-decoration: none;
 }
 
@@ -169,15 +169,16 @@ main {
   padding: 25px;
   margin: 5px;
   justify-content: space-evenly;
+  flex-basis: 200px;
   text-align: center;
 }
 
-.my-work__second_card a {
+.my-work__second a {
   text-decoration: none;
 }
 
-.my-work__second_card img {
-  width: 80%;
+.my-work__second img {
+  width: 175px;
   border-radius: 10px;
 }
 
@@ -255,13 +256,40 @@ footer {
 }
 
 /* Responsive */
-@media (min-width: 768px) {
+@media (min-width: 390px) {
   .full-document-container {
       display: flex;
+      flex-flow: column wrap;
 
   }
 
   .my-work-container {
+      display: flex;
+      justify-content: space-between;
+
+  }
+}
+@media (min-width: 820px) {
+  .full-document-container {
+      display: flex;
+      flex-flow: column wrap;
+
+  }
+
+  .my-work-container {
+      display: flex;
+      justify-content: space-between;
+
+  }
+}
+@media (max-width:762px) {
+  .full-document-container {
+      display: flex;
+      flex-flow: column wrap;
+
+  }
+
+  .my-work__second {
       display: flex;
       justify-content: space-between;
 

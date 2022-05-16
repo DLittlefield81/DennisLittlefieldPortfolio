@@ -1,0 +1,33 @@
+@media (min-width:468px){
+
+    .container-1{
+        display:flex;
+    }
+
+
+.container-2{
+    display:flex;
+    justify-content: space-between;
+
+}
+}
+.container-1 div{
+    border:1px solid black;
+}
+
+.box-1{
+    flex:1
+    order:1;
+}
+.box-2{
+    flex:1
+}
+.box-3{
+    flex:1
+}
+.box-4{
+    flex:1
+}
+.box-5{
+    flex:1
+}
