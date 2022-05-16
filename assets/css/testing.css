@@ -1,33 +1,56 @@
-@media (min-width:468px){
 
-    .container-1{
+/* Sections Container */
+.section{
         display:flex;
+        flex-direction: column;
+        
     }
+/* Modify section items */
+section div{
+    
+    flex-basis: 2%;
+    padding: 5px;
+    margin-bottom: 20px;
+     
+}
+/* ABOUT ME */
 
-
-.container-2{
-    display:flex;
-    justify-content: space-between;
-
-}
-}
-.container-1 div{
-    border:1px solid black;
+/* MY WORK */
+article {
+    /* border:1px solid black; */
+display: flex;
+flex-flow: row wrap;
 }
 
-.box-1{
-    flex:1
-    order:1;
+figure{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }
-.box-2{
+figure  h3,h4{
+    text-align: center;
+}
+figure a{
+    text-decoration: none;
+}
+figure img{
+display:block;
+
+    width: 100%;
+}
+article item1{
+flex:1
+}
+article item2{
     flex:1
 }
-.box-3{
+article item3{
     flex:1
 }
-.box-4{
+article item4{
     flex:1
 }
-.box-5{
-    flex:1
+/* CONTACT */
+.contact__container{
+   
 }
