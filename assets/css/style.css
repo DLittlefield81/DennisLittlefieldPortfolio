@@ -214,9 +214,7 @@ article {
     }
   
   #showcase{
-      border: 1px solid #000000;
       display: flex;
-      /* flex:row wrap; */
       
   }
    #showcase figure:nth-of-type(1) {flex-grow: 4;}
