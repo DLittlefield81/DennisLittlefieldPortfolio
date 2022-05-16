@@ -64,7 +64,6 @@ header {
   /*vertical alignment  */
   align-items: center;
   color: rgb(39, 35, 35);
-  height: 60px;
   background-color: #000000;
   position: sticky;
   top: 0;
@@ -292,6 +291,9 @@ footer {
     display: flex;
     flex-flow: column wrap;
 
+  }
+  .header-nav-container{
+    flex-flow:column;
   }
 }
 @media (max-width: 1000px) {
