@@ -47,8 +47,10 @@ Follow these steps to install this project on your local machine.
 ## Credits
 
 Collaborators
+
 * Dennis Littlefield - https://dlittlefield81.github.io/DennisLittlefieldPortfolio/
 * Althea Hanson - https://altheahanson.github.io/althea-hanson-portfolio/
+* Ying Liang (Wingky)
 
 ## License
 
