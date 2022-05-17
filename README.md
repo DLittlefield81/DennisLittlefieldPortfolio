@@ -40,9 +40,9 @@ Follow these steps to install this project on your local machine.
 ## Usage
 
 
-```md
+
 ![The Littlefield Portfolio](./assets/images/TheLittlefieldPortfolio.png)
-```
+
 
 ## Credits
 
