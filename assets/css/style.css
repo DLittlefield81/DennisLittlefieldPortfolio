@@ -1,7 +1,10 @@
+:root{
+  --myBlue: #5192bd;
+}
 * {
   padding: 0;
   margin: 0;
-  color: #5192bd;
+  color: var(--myBlue);
   font-family: "Rubik", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -95,7 +98,7 @@ nav div {
 nav a {
   font-size: 20px;
   font-weight: bold;
-  color: #5192bd;
+  color: var(--myBlue);
   text-decoration: none;
 }
 
@@ -186,7 +189,7 @@ margin-bottom: 20px;
 /* MY WORK */
 article {
   display: flex;
-  /* flex-flow: row wrap; */
+ 
   word-break: break-word;
   }
   

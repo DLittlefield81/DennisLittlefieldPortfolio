@@ -16,7 +16,7 @@ Through this project I learned patience and responsive design.
 - Contact
 * Titled images of the developer's applications
 * Application Images are hyperlinked to deployed application GIT PAGES
-* The First App image is larger than the 
+* The First App image is larger than the others
 * Responsive design
 
 ## Table of Contents (Optional)
@@ -40,7 +40,7 @@ Follow these steps to install this project on your local machine.
 ## Usage
 
 
-
+![Wireframe Design](./assets/images/portfolio-wireframe.png)
 ![The Littlefield Portfolio](./assets/images/TheLittlefieldPortfolio.png)
 
 
