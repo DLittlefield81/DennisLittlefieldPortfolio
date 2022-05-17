@@ -41,6 +41,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.900);
   box-shadow: 5px 10px 8px rgba(136, 199, 247, 0.463);
 width: auto;
+scroll-margin-top: 10vw;
 }
 
 .full-document-column-1 {
