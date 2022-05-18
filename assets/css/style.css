@@ -92,7 +92,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding: 20px;
   justify-content: space-around;
   
 }
@@ -293,7 +292,7 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 860px) {
+@media (max-width: 420px) {
   .full-document-container {
     display: flex;
     flex-flow: column wrap;
@@ -301,6 +300,9 @@ footer {
   }
   .header-nav-container{
     flex-flow:column;
+  }
+  .box_styling {
+    scroll-margin-top: 50vw;
   }
 }
 @media (max-width: 1000px) {
