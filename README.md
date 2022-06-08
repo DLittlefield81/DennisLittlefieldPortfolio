@@ -1,4 +1,4 @@
-# <The Littlefield Portfolio Project>
+# The Littlefield Portfolio Project
 
 ## Description
 
@@ -39,7 +39,7 @@ Follow these steps to install this project on your local machine.
 
 ## Usage
 
-
+Link to deployed application: https://dlittlefield81.github.io/DennisLittlefieldPortfolio/
 ![Wireframe Design](./assets/images/portfolio-wireframe.png)
 ![The Littlefield Portfolio](./assets/images/TheLittlefieldPortfolio.png)
 
